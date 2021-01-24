@@ -1,0 +1,437 @@
+body {
+    height: 5750px;
+    width: 1920px;
+}
+
+.top-part{
+    width: 1920px;
+    background-image: url(../images/bg.png)
+}
+
+/*common */
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+/*header*/
+#header {
+    padding: 20px 0;
+    width: 100%;
+    margin-bottom: 0;
+    z-index: 999;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    background-color: #FFFFFF;
+}
+
+.head-con {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.head-services {
+
+    display: flex;
+    flex-basis: auto;
+    
+}
+
+.headtitle-logo {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-basis: 50%;
+    align-items: center;
+    margin-left: 0;
+   
+}
+
+.circle-logo {
+   margin-bottom: -6px;
+   padding: 0 6px;
+   
+}
+
+.one-service {
+    
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-basis: 50%;
+    align-items: center;
+    margin-left: auto;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+
+.link-ser {
+    padding: 6px 10px;
+    margin: 0 7px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15.4px;
+    color:#2F55D4 ;
+    font-weight: 400;
+}
+
+.free-button {
+  
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 10px;
+}
+
+.free-button {
+    color: #34d1bf;
+    background: rgba(52,209,191,.2);
+    border-color: transparent;
+    box-shadow: none;
+    margin: 2px 8px 0px 10px;
+    margin-left: 10px;
+    border-radius: 30px;
+    font-size: .9rem;
+    padding: .7rem 1.4rem;
+    font-weight: 500;
+}
+
+.head-title {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    font-size: 33px;
+    color: rgb(17, 8, 102));
+}
+
+
+
+/*banner*/
+
+#banner {
+    padding: 230px 0 170px;
+    margin-top: 0;
+}
+
+.discover {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    margin-bottom: 44px;
+    color: #A0A9B1;
+    margin-top: 0px;
+}
+.toan {
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    color: #A0A9B1;
+    margin: 0px 0px 16px;
+    line-height: 1.8;
+    margin-bottom: 21px;
+    margin-top: 21px;
+}
+.make {
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    margin: -25px 0px 27px;
+    color: #343A40;
+    font-weight: 500;
+    margin-bottom: .5rem;
+    line-height: 1.2;
+}
+.uni-er {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.ere {
+    padding-left: 10px;
+    color: rgb(50,50,215);
+}
+.gst, .lme {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14.4px;
+    font-weight: 500;
+    padding: 11.2px 22.4px;
+    margin: 8px 8px 0px 0px;
+    color: #ffffff;
+    margin-top: 1.5rem;
+    border-radius: 7px;
+    margin-right: .5rem;
+    margin-top: .5rem;
+    line-height: 1.5;
+}
+.gst {
+    background-color: #2F55D4;
+}
+.lme {
+    background-color: #34D18F;
+}
+.get {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 1.5rem;
+}
+.welcome {
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    margin: 0px 0px 8px;
+    color: #A0A9B1;
+    margin-bottom: .5rem;
+}
+.trail {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    margin: 0px 0px 24px;
+    color: #343a40;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+.label-2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14.4px;
+    color: #A0A9B1;
+    left: 0;
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+.wel-trail {
+    line-height: 1.5;
+    text-align: center;
+}
+.nam, .ema {
+    margin-bottom: 1.5rem;
+}
+.pas {
+    margin-bottom: 1rem;
+}
+.enter-data {
+    margin-bottom: 10px;
+}
+.enter-box {
+    display: block;
+    padding: 1px 12px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+.boxing {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.g-s {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    background-color: #2F55D4;
+    padding: 4px 4px;
+    color: #FFFFFF;
+    display: block;
+    font-weight: 500;
+    border-radius: 7px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: 10px;
+}
+.big-box {
+    border: none;
+    box-shadow: 0 8px 35px 0 rgba(73,80,87,.05);
+    padding: 1.5rem;
+    background-color: #fff;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    background-clip: border-box;
+}
+.box-1 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.boxing {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-basis: 50%;
+    align-items: center;
+}
+
+/* services */
+#services {
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #f8fafe; 
+}
+.serhead {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #2F55DA;
+    margin: 0px 0px 8px;
+}
+.ser-big {
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0px 0px 16px;
+    color: #343A40;
+}
+.ser-sma{
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    margin: 0px 0px 16px;
+    color: #A0A9B1;
+}
+.sr-ti {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0px 0px 8px;
+    color: #343A40;
+}
+.ser-con {
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    color: #A0A9B1;
+}
+.serbut {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14.4px;
+    color: #FFFFFF;
+    background: #34D1Bf;
+    padding: 11.2px 22.4px;
+    border-radius: 10%;
+    height: 18px;
+    font-weight: 500;
+}
+.con-ser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 50%;
+}
+.ser-box {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-bottom: 35px
+}
+.ser-box .servi {
+    list-style: none;
+    flex-basis: 20%;
+    text-align: center;
+    margin: 40px;
+   justify-content: center;
+   align-items: center;
+}
+.sertop {
+    text-align: center;
+}
+.ser-big {
+    margin-bottom: 1rem;
+}
+.ser-sma{
+    line-height: 1.8;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.ser-con {
+    line-height: 1.8;
+}
+.ser-ico {
+    margin-left: auto;
+    height: 3.5rem;
+    width: 3.5rem;
+    margin-right: auto;
+    margin-bottom: 1.5rem;
+    align-items: center;
+    background-color: rgb(233, 236, 241);
+    color: #fff;
+    display: flex;
+    font-weight: 500;
+    height: 50%;
+    justify-content: center;
+    width: 30%;
+    border-radius: 50%;
+}
+.serbut {
+    margin-top: 10px;
+}
+
+
+/*business*/
+ 
+#business {
+    /* background-color: rgba(255, 0, 0, 0.486); */
+    padding: 80px 0px;
+    background-color: #2f55d4;
+}
+.b-head {
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    margin: 0px 0px 8px;
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 1.2rem;
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+.b-con {
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    margin: 0px 0px 16px;
+    color: #FFFFFF80;
+    line-height: 1.8;
+  
+}
+.num {
+    font-family: 'Rubik', sans-serif;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+.num-con {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    margin: 0px 0px 16px;
+    color: #FFFFFF80;
+}
+.bus-head {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 0px 15px;
+}
+.bus-con {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.bus-con .bus {
+    margin-top: 1.5rem;
+    margin: 24px 0px 0px;
+    padding: 0px 15px;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+   flex: wrap;
+   flex-direction: column;
+   line-height: 1.8;
+   text-align: center;
+}
