@@ -1,10 +1,7 @@
-body {
-    height: 5750px;
-    width: 1920px;
-}
+
 
 .top-part{
-    width: 1920px;
+    
     background-image: url(../images/bg.png)
 }
 
@@ -92,8 +89,8 @@ body {
 }
 
 .free-button {
-    color: #34d1bf;
-    background: rgba(52,209,191,.2);
+    color: #816300;
+    background: rgba(13, 158, 90, 0.2);
     border-color: transparent;
     box-shadow: none;
     margin: 2px 8px 0px 10px;
